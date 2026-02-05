@@ -93,7 +93,7 @@ function App() {
           className="text-cloud"
           style={{ width: "350px" }}
         />
-        <h1 className="text-cloud-text" style={{ bottom: 137 }}>hi {name},</h1>
+        <h1 className="text-cloud-text" style={{ bottom: 137 }}>keloke {name},</h1>
         <h1 className="text-cloud-text" style={{ bottom: 135 }}>:)</h1>
       </div>
 
@@ -109,7 +109,7 @@ function App() {
           style={{ fontSize: "1.3rem", marginBottom: 50 }}
           onClick={handleButtonClick}
         >
-          click to say hi
+          dame cli
         </button>
       )}
 
@@ -125,7 +125,7 @@ function App() {
           <div className="splash pink-bg" />
           <motion.div className="card" style={{ flexDirection: 'column' }} variants={cardVariants}>
             <p style={{ position: "absolute", top: 10, fontSize: "1.5rem" }}>
-              do u wanna be my valentine?
+              quieres cenar conmigo este san valentín?
             </p>
             <p style={{ position: "absolute", top: 85, fontSize: "1.5rem" }}>
               {firstMessage}
@@ -153,10 +153,10 @@ function App() {
           <div className="splash purple-bg" />
           <motion.div className="card" variants={cardVariants}>
             <p style={{ position: "absolute", top: 25, fontSize: "1.5rem" }}>
-              it'll be on february {dateDay}
+              sería el {dateDay}
             </p>
             <p style={{ position: "absolute", top: 60, fontSize: "1.5rem" }}>
-              at {dateTime}
+              a las {dateTime}
             </p>
             <img src="/assets/snoopy-in-love.webp" alt="heart" style={{ width: '90%', position: "absolute", bottom: 0 }} />
           </motion.div>
@@ -167,7 +167,7 @@ function App() {
           <div className="splash magenta-bg" />
           <motion.div className="card" variants={cardVariants}>
             <p style={{ position: "absolute", top: 15, fontSize: "1.5rem" }}>
-              i'll pick you up in a dazzling car
+              así hacemos una zapata antes de beber {">"}:)
             </p>
             <p style={{ position: "absolute", top: 85, fontSize: "1.5rem" }}>
               {fourthMessage}
@@ -185,10 +185,10 @@ function App() {
               style={{ position: "absolute", top: 20, fontSize: "1.3rem" }}
               onClick={() => window.open(placeURL, "_blank")}
             >
-              this is the place
+              en este sitio
             </button>
             <p style={{ position: "absolute", top: 85, fontSize: "1.3rem" }}>
-              it's pretty cool imo
+              looks pretty cool imo
             </p>
             <img src="/assets/italianissimo-chef.png" alt="heart" style={{ width: '90%', position: "absolute", bottom: 0 }} />
           </motion.div>
@@ -203,7 +203,7 @@ function App() {
               key={index} 
               style={{ position: "absolute", top: 20 + index * 15, fontSize: "1.3rem" }}
             >
-              see you then! :))
+              si o qué {">"}:))
             </p>
           ))}
             <img src="/assets/snoopy-kiss.webp" alt="heart" style={{ width: '90%', position: "absolute", bottom: 0 }} />

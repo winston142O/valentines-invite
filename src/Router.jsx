@@ -28,7 +28,7 @@ const RouteList = () => {
                 />
 
                 <Route 
-                    path="hey-there/:name/do-u-wanna-be-my-valentine"
+                    path="keloke/:name/una-pregunta"
                     element={
                         <motion.div variants={animVariants} initial="initial" animate="animate" exit="exit">
                             <Valentines />

@@ -167,7 +167,7 @@ function App() {
           <div className="splash magenta-bg" />
           <motion.div className="card" variants={cardVariants}>
             <p style={{ position: "absolute", top: 15, fontSize: "1.5rem" }}>
-              así hacemos una zapata antes de beber {">"}:)
+              así hacemos una zapata antes de beber
             </p>
             <p style={{ position: "absolute", top: 85, fontSize: "1.5rem" }}>
               {fourthMessage}
@@ -203,7 +203,7 @@ function App() {
               key={index} 
               style={{ position: "absolute", top: 20 + index * 15, fontSize: "1.3rem" }}
             >
-              si o qué {">"}:))
+              si o qué
             </p>
           ))}
             <img src="/assets/snoopy-kiss.webp" alt="heart" style={{ width: '90%', position: "absolute", bottom: 0 }} />

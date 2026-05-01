@@ -60,6 +60,7 @@ function App() {
 
   // Function to start music & reveal cards
   const handleButtonClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     setShowCards(true); // Reveal card list
 
     if (!audioRef.current) {

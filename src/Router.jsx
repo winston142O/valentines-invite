@@ -1,5 +1,6 @@
 import App from "./components/App";
 import Valentines from "./components/Valentines";
+import DinnerInvite from "./components/DinnerInvite";
 import { Error404 } from "./components/Error404";
 import { AnimatePresence, motion } from "motion/react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
@@ -32,6 +33,15 @@ const RouteList = () => {
                     element={
                         <motion.div variants={animVariants} initial="initial" animate="animate" exit="exit">
                             <Valentines />
+                        </motion.div>
+                    }
+                />
+
+                <Route
+                    path="/hola/:name/invitacion-importante"
+                    element={
+                        <motion.div variants={animVariants} initial="initial" animate="animate" exit="exit">
+                            <DinnerInvite />
                         </motion.div>
                     }
                 />
